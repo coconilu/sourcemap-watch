@@ -7,8 +7,8 @@ source-map查看器。本项目仅是提供一个查看错误堆栈的思路，�
 ```
 git clone https://github.com/coconilu/sourcemap-watch.git
 cd sourcemap-watch
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 将会自动打开页面（如果没有自动打开，可以输入URL：localhost:8080）：
