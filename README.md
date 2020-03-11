@@ -21,6 +21,8 @@ npm start
 
 ![demo](https://bayes-1253621140.cos.ap-guangzhou.myqcloud.com/%E6%88%AA%E5%B1%8F2020-03-11%E4%B8%8A%E5%8D%8811.41.25.png)
 
+> 上面的案例，是假设从用户收集到的错误信息，xxx/bundle.js.map是source-map文件，行号是1，列号1074（不要惊讶，压缩过的文件基本都是一行）。
+
 使用过程中，只需要url带上如下三个参数：
 
 1. mapurl，表示sourceMap的路径
