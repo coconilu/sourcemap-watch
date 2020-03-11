@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="" />
+
+    <script src="https://unpkg.com/source-map@0.7.3/dist/source-map.js"></script>
+    <style>
+      body {
+        padding: 20px 100px 50px;
+      }
+
+      .hint {
+        background: #eff9ff;
+        border: 1px solid #cdebfd;
+        padding: 10px 10px 10px 30px;
+        border-radius: 4px;
+      }
+
+      #code {
+        border: 4px solid #88c;
+        padding: 1em;
+      }
+
+      p > span {
+        background: #eff9ff;
+      }
+
+      #demo {
+        width: 98px;
+        height: 40px;
+        border-radius: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <!--[if lt IE 7]>
+      <p class="browsehappy">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="#">upgrade your browser</a> to improve your experience.
+      </p>
+    <![endif]-->
+
+    <p class="hint">
+      URL带上参数：mapurl表示sourceMap的路径，mapline表示sourceMap的行，mapcolumn表示sourceMap的列。
+    </p>
+
+    <p>map-url: <span id="mapurl"></span></p>
+    <p>map-line: <span id="mapline"></span></p>
+    <p>map-column: <span id="mapcolumn"></span></p>
+    <br />
+    <p>source-url: <span id="surl"></span></p>
+    <p>source-line: <span id="sline"></span></p>
+    <p>source-column: <span id="scolumn"></span></p>
+
+    <button id="demo">查看demo</button>
+
+    <br />
+
+    <pre class="prettyprint linenums" id="code"></pre>
+
+    <script src="./index.js" async defer></script>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js?autoload=true&amp;skin=sons-of-obsidian&amp;lang=js"
+    defer=""
+  ></script>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "sourcemap-watch",
+  "version": "1.0.0",
+  "description": "watch sourcemap",
+  "main": "index.js",
+  "scripts": {
+    "start": "anywhere -p 8000 -d ./src",
+    "server": "webpack-dev-server"
+  },
+  "repository": "https://github.com/coconilu/sourcemap-watch.git",
+  "author": "bayeswang <827130441@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "source-map": "^0.7.3"
+  },
+  "dependencies": {
+    "anywhere": "^1.5.0"
+  }
+}
